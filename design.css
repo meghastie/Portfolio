@@ -86,6 +86,7 @@ main {
 }
 
 .container .socials img {
+    
     margin-bottom: 20px;
     border-radius: 50%;
     width: 70px;
@@ -93,7 +94,6 @@ main {
 }
 
 .container .profileImage img{
-    border-radius: 50%;
     width: 200px; 
     align-items: center;
     margin-bottom: 20px;
