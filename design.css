@@ -94,6 +94,11 @@ main {
 }
 
 .container .profileImage img{
+    border-radius: 50%;
+    width: 200px; 
+    align-items: center;
+    margin-bottom: 20px;
+}
     width: 200px; 
     align-items: center;
     margin-bottom: 20px;
