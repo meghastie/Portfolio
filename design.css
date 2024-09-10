@@ -51,13 +51,6 @@ main {
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        margin: 20px; 
-        padding: 20px;
-    }
-
-
 .container h1 {
     font-size: clamp(40px, 10vw, 100px);
     font-weight: bold;
@@ -117,13 +110,6 @@ main {
     margin-right: 10px;
 }
 
-@media (max-width: 768px) {
-    .travelImages img {
-        width: 150px; /* smaller width for mobile */
-        height: 150px;
-    }
-}
-
 .container ul {
     list-style-position: inside;
 }
@@ -154,4 +140,4 @@ main {
   .fade-in.visible {
     opacity: 1;
     transform: translateY(0); }
-  }
+
