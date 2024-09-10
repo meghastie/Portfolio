@@ -47,9 +47,15 @@ main {
 }
 
 .container p {
-    margin-bottom: 20px;
     font-size: clamp(14px, 2.5vw, 18px);
+    margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 20px; 
+        padding: 20px;
+    }
 
 
 .container h1 {
@@ -72,6 +78,7 @@ main {
     font-weight: 550;
     font-size: clamp(16px, 3vw, 18px);
     font-family: 'Verdana';
+    word-wrap: break-word;
 }
 
 .container h4 {
@@ -140,3 +147,4 @@ main {
   .fade-in.visible {
     opacity: 1;
     transform: translateY(0); }
+  }
