@@ -54,7 +54,7 @@ main {
 .container h1 {
     font-size: clamp(40px, 10vw, 100px);
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .container h2 {
